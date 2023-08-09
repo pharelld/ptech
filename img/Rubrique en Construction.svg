@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 600" style="enable-background:new 0 0 1200 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D87111;}
+	.st1{fill:none;}
+	.st2{font-family:'GrandParis-Med';}
+	.st3{font-size:60px;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'IDFVoyageur-Bold';}
+	.st6{font-size:36px;}
+</style>
+<rect x="1105.1" y="536.7" class="st0" width="94.9" height="35.6"/>
+<rect x="122.5" y="317.2" class="st1" width="779" height="151.7"/>
+<text transform="matrix(1 0 0 1 122.4965 363.8796)"><tspan x="0" y="0" class="st2 st3">Rubrique en cours de </tspan><tspan x="0" y="72" class="st2 st3">construction.</tspan></text>
+<g>
+	<polygon class="st0" points="48.2,-40.1 0.1,12.3 0.1,76.5 107,-40.1 	"/>
+	<polygon class="st0" points="165.9,-40.1 54.8,81.1 54.9,81.1 113.6,81.1 224.7,-40.1 	"/>
+	<polygon class="st0" points="283.6,-40.1 172.5,81.1 172.6,81.1 231.3,81.1 342.4,-40.1 	"/>
+	<polygon class="st0" points="401.3,-40.1 290.2,81.1 290.3,81.1 349,81.1 460.1,-40.1 	"/>
+	<polygon class="st0" points="519,-40.1 407.9,81.1 408,81.1 466.7,81.1 577.8,-40.1 	"/>
+	<polygon class="st0" points="636.7,-40.1 525.6,81.1 525.7,81.1 584.4,81.1 695.5,-40.1 	"/>
+	<polygon class="st0" points="754.4,-40.1 643.3,81.1 643.4,81.1 702.1,81.1 813.2,-40.1 	"/>
+	<polygon class="st0" points="872.1,-40.1 761,81.1 761.1,81.1 819.9,81.1 930.9,-40.1 	"/>
+	<polygon class="st0" points="989.8,-40.1 878.7,81.1 878.8,81.1 937.6,81.1 1048.7,-40.1 	"/>
+	<polygon class="st0" points="1107.5,-40.1 996.4,81.1 996.5,81.1 1055.3,81.1 1166.4,-40.1 	"/>
+	<polygon class="st0" points="1114.1,81.1 1114.2,81.1 1173,81.1 1200,51.6 1200,-12.6 	"/>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M184.9,109.5h-44.3c-10,0-18.1,8.1-18.1,18.1v44.3c0,10,8.1,18.1,18.1,18.1h44.3c10,0,18.1-8.1,18.1-18.1
+			v-44.3C203,117.6,194.9,109.5,184.9,109.5z"/>
+	</g>
+	<g>
+		<path class="st4" d="M156.5,130.3c0-2.6,2.1-4.7,4.7-4.7c2.6,0,4.7,2.1,4.7,4.7s-2.1,4.7-4.7,4.7
+			C158.6,135,156.5,132.9,156.5,130.3z M137.3,145c0.5-1.2,1.9-1.7,3-1.3l1.9,0.8l2.2-3.7c1.6-2.7,4.4-4.3,7.5-4.3
+			c5,0,9.4,3.2,11,7.9l3.4,10.1l7.7,3.2l3.3-4.4c0.6-0.8,1.6-1.3,2.6-1.2c1,0,2,0.6,2.5,1.5l9.3,15.5c0.6,1,0.6,2.2,0,3.1
+			s-1.6,1.6-2.7,1.6h-24.9c-1.1,0-2.1-0.6-2.6-1.5c-0.6-0.9-0.6-2.1-0.1-3l1.6-3.1c0.5-1,1.6-1.7,2.8-1.7h3.1l2.2-2.9L138.6,148
+			C137.4,147.5,136.8,146.2,137.3,145L137.3,145z M145.3,153.9l10.9,4.7c1.1,0.5,1.9,1.6,1.9,2.9v9.3c0,1.7-1.4,3.1-3.1,3.1
+			c-1.7,0-3.1-1.4-3.1-3.1v-7.3l-5.9-2.5l-3.6,10.8c-0.5,1.6-2.3,2.5-3.9,2s-2.5-2.3-2-3.9l4.7-14l1.1-3.2L145.3,153.9z"/>
+	</g>
+</g>
+<rect x="122.5" y="212" class="st1" width="779" height="64.4"/>
+<text transform="matrix(1 0 0 1 122.4965 240.0113)" class="st5 st6">WORK IN PROGRESS...</text>
+</svg>

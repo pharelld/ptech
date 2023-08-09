@@ -1,0 +1,407 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P.Tech</title>
+  <meta name="description" content="P.Tech - Réparation informatique et vente de petit matériels">
+  <link rel="shortcut icon" href="../img/favicon.ico?v=1" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/global.css">
+  <script src="../js/global.js" defer></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex">
+          <div class="logo">
+            <a href="../">
+              <img src="../img/logo_P.tech - 2.png" width="100" height="100" loading="lazy"
+            alt="L'Atelier P.Tech">
+            </a>
+          </div>
+          <nav class="navbar ">
+            <ul class="menu list-unstyled">
+              <li><a href="/index.html">Accueil</a></li>
+              <li><a href="/portfolio/services.html">Nos Services</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="right">
+            <ul class="socials list-unstyled">
+              <li>
+                <a href="https://linkedin.com/in/pdtn" target="_blank">
+                  <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                    class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <button class="burger"><span class="bar"></span></button>
+          </div>
+        </div>
+    </header>
+    
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="grid">
+            <div class="hero__item left">
+              <h1 class="title">Dépannage informatique à domicile</h1>
+              <span>Réparation informatique et vente de petit matériels</span>
+              <p>Voisins-le-Bx - Montigny-le-Bx - Guyancourt - Buc - Jouy-en-Josas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Nos services</h2>
+            <p><strong>Prenez Rendez-vous avec un technicien informatique afin de diagnostiquer votre matériel chez vous !</strong>
+              Vous pouvez également programmer un enlèvement afin qu'un technicien vienne récupérer votre matériel
+              pour le réparer en atelier.</p>
+          </div>
+
+          <main class="portfolio">
+            <div class="container">
+                <!--<ul class="itembutton list-unstyled">
+                    <div class="grid__itembutton">
+                      <a active href="#" class="active" target="_blank">Extrait du référentiel BTS SIO rénové (Bientôt Disponible) </a>
+                    </div>
+                </ul>-->
+                
+                <ul class="grid portfolio-filters list-unstyled">
+                    <li class="grid__item">
+                        <a href="#" class="active" data-filter="Tous">Tous les documents</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="Formation">Fiches réalisations (Formation)</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="Entreprise">Fiches réalisations (Entreprise)</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="Autres">Autres documents</a>
+                    </li>
+                </ul>    
+                <div class="grid">
+                    <div class="grid__item">
+                        <div class="card" data-category="Formation">
+                            <img src="/img/EPREUVE E4/Couverture_ServeurAD.png" alt="img" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Active Directory</h3>
+                                <p class="category">Fiches réalisations (Formation)</p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-1">Voir</a>
+                            </div>
+                            <!--Début de Modal-->
+                            <div class="modal" id="modal-1">
+                                <button class="modal__close">&times;</button>
+                                
+                                <div class="modal__content">
+                                    <div class="container">
+                                        <div class="grid">
+                                            <!--1ère colonne des images-->
+                                            <div class="grid__item">
+                                                <img src="/img/EPREUVE E4/Couverture_ServeurAD.png" loading="lazy" width="560" height="373"
+                                                class="card__image" alt="Projet site de la ville de lyon" />
+                                            </div>
+                                            <!--2ème colonne : description-->
+                                            <div class="grid__item">
+                                                <h4 class="modal__title h2">Déploiement d’un Serveur Active Directory</h4>
+                                                <!--SVG et info date-->
+                                                <p>
+                                                    <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                     data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                     <path fill="currentColor" 
+                                                        d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                                     </path>
+                                                    </svg>
+                                                    <i>Pulication : 27 Mars 2023</i>
+                                                </p>
+                                                <!--SVG et info sur la catégorie-->
+                                                <p class="category">
+                                                    <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                     class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                     viewBox="0 0 512 512">
+                                                     <path fill="currentColor"
+                                                       d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                                     </path>
+                                                    </svg>
+                                                    Fiches réalisations (Formation)
+                                                </p>
+                                                <!--Paragraphe d'introduction-->
+                                                <p>
+                                                    L’objectif ici était de mettre en place un Serveur Active Directory
+                                                    pour permettre à une société (préalablement imaginée pour le projet) 
+                                                    d’avoir une administration centralisée et simplifiée de tous les 
+                                                    utilisateurs d’une entreprise.
+                                                </p>
+                                                <!--Titre + Paragraphe-->
+                                                <h5 class="h3">Environnement</h5>
+                                                <ul>
+                                                    <li>Une machine virtuelle Windows Server 2019</li>
+                                                    <li>Une machine virtuelle Windows 10 Professionnel (Machine Cliente)</li>
+                                                </ul>
+                                                <p>
+                                                    Logiciels & Services : Gestionnaire de Serveur, Service DHCP, Service DNS, Service AD DS
+                                                </p>
+                                                <!--Titre + Liste-->
+                                                <section id="ressources" class="ressources">
+                                                    <!--<div class="container">-->
+                                                        <h5 class="h3">Ressources</h5>
+                                                        <div class="grid">
+                                                            <!--<div class="grid__item">-->
+                                                                <ul class="itembutton list-unstyled">
+                                                                    <li onclick="window.open('https://mega.nz/file/16g3FIAQ#qhhKejU-HfXA5k7l4WWtnwcVNvxea9QBoLBavWYCxzM', '_blank');" style="cursor: pointer;">
+                                                                        <h4>Fiche réalisation n°1 - Serveur Active Directory</h4>
+                                                                        <p>PDF - Lien externe MEGA</p>
+                                                                    </li>
+                                                                </ul>
+                                                            <!--</div>-->
+                                                        </div>
+                                                    <!--</div>-->
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!--Fin de Modal-->
+                        </div>
+                    </div>
+                    
+                    <div class="grid__item">
+                        <div class="card" data-category="Autres">
+                            <img src="../img/EPREUVE E4/Couverture_Tb de Synthèse.png" alt="img" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Tableau de Synthèse</h3>
+                                <p class="category">Autres documents</p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-2">Voir</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-2">
+                            <button class="modal__close">&times;</button>
+                            
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <!--1ère colonne des images-->
+                                        <div class="grid__item">
+                                            <img src="../img/EPREUVE E4/Couverture_Tb de Synthèse.png" loading="lazy" width="560" height="373"
+                                            class="card__image" alt="Projet site de la ville de lyon" />
+                                        </div>
+                                        <!--2ème colonne : description-->
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Tableau de synthèse des réalisations professionnelles</h4>
+                                            <!--SVG et info date-->
+                                            <p>
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                 data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                 <path fill="currentColor" 
+                                                    d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                                 </path>
+                                                </svg>
+                                                <i>Pulication : 27 Mars 2023</i>
+                                            </p>
+                                            <!--SVG et info sur la catégorie-->
+                                            <p class="category">
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                 class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                 viewBox="0 0 512 512">
+                                                 <path fill="currentColor"
+                                                   d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                                 </path>
+                                                </svg>
+                                                Autres documents
+                                            </p>
+                                            <!--Paragraphe d'introduction-->
+                                            <p>
+                                                Le tableau de synthèse rescense toutes les réalisations effectuées
+                                                durant les deux années de BTS SIO. Ce tableau est conforme à
+                                                la version 2023 de l'épreuve du BTS SIO option SISR.
+                                            </p>
+                                            <!--Titre + Paragraphe-->
+                                            <h5 class="h3">Contenu</h5>
+                                            <ul>
+                                                <li>Réalisations en cours de formations</li>
+                                                <li>Réalisations en milieu professionnel en cours de première année</li>
+                                                <li>Réalisations en milieu professionnel en cours de seconde année</li>
+                                            </ul>
+                                            <h5 class="h3">Compétences mises en oeuvre </h5>
+                                            <ul>
+                                                <li>Gérer le patrimoine informatique</li>
+                                                <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
+                                                <li>Traviller en mode projet</li>
+                                                <li>Mettre à disposition des utilisateurs un service informatique</li>
+                                                <li>Organiser son développement professionnel</li>
+                                            </ul>
+                                            <p>
+                                                Logiciels & Services : Gestionnaire de Serveur, Service DHCP, Service DNS, Service AD DS
+                                            </p>
+                                            <!--Titre + Liste-->
+                                            <section id="ressources" class="ressources">
+                                                <!--<div class="container">-->
+                                                    <h5 class="h3">Ressources</h5>
+                                                    <div class="grid">
+                                                        <!--<div class="grid__item">-->
+                                                            <ul class="itembutton list-unstyled">
+                                                                <li onclick="window.open('https://drive.google.com/file/d/1gtjbZstt7KyC2lLYCCHkTKpqOfr64y6g/view?usp=share_link', '_blank');" style="cursor: pointer;">
+                                                                    <h4>Annexe 6-1 - Tableau de synthèse - Épreuve E4</h4>
+                                                                    <p>PDF - Lien externe G. Drive</p>
+                                                                </li>
+                                                            </ul>
+                                                        <!--</div>-->
+                                                    </div>
+                                                <!--</div>-->
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__item">
+                        <div class="card" data-category="Formation">
+                            <img src="../img/EPREUVE E4/Couverture_OCS-GLPI.png" alt="img" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">OCS-GLPI</h3>
+                                <p class="category">Fiches réalisations (Formation)</p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-OCSGLPI">Voir</a>
+                            </div>
+                            <!--Début de Modal-->
+                            <div class="modal" id="modal-OCSGLPI">
+                                <button class="modal__close">&times;</button>
+                                
+                                <div class="modal__content">
+                                    <div class="container">
+                                        <div class="grid">
+                                            <!--1ère colonne des images-->
+                                            <div class="grid__item">
+                                                <img src="/img/EPREUVE E4/Couverture_OCS-GLPI.png" loading="lazy" width="560" height="373"
+                                                class="card__image" alt="Projet site de la ville de lyon" />
+                                            </div>
+                                            <!--2ème colonne : description-->
+                                            <div class="grid__item">
+                                                <h4 class="modal__title h2">Déploiement d’un outil de gestion de parc informatique et de gestion de tickets</h4>
+                                                <!--SVG et info date-->
+                                                <p>
+                                                    <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                     data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                     <path fill="currentColor" 
+                                                        d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                                     </path>
+                                                    </svg>
+                                                    <i>Pulication : 01 Avril 2023</i>
+                                                </p>
+                                                <!--SVG et info sur la catégorie-->
+                                                <p class="category">
+                                                    <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                     class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                     viewBox="0 0 512 512">
+                                                     <path fill="currentColor"
+                                                       d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                                     </path>
+                                                    </svg>
+                                                    Fiches réalisations (Formation)
+                                                </p>
+                                                <!--Paragraphe d'introduction-->
+                                                <p>
+                                                    Cette réalisation a été effectuée dans le cadre de travaux pratiques. 
+                                                    L’objectif était d’installer et prendre en main d’une part OCS, qui 
+                                                    est un outil de gestion de parc informatique, ainsi que GLPI qui est 
+                                                    un outil de gestion de tickets. Ces deux outils devait être 
+                                                    interconnectés ensemble et liés à un annuaire Active Directory via LDAP. 
+                                                    La liaison LDAP permet une gestion optimale des accès utilisateurs et 
+                                                    facilite la connexion. En effets, les identifiants utilisés pour se 
+                                                    connectés aux outils OCS et GLPI sont identiques aux identifiants 
+                                                    permettant d’accéder à sa session Windows.
+                                                </p>
+                                                <!--Titre + Paragraphe-->
+                                                <h5 class="h3">Environnement</h5>
+                                                <ul>
+                                                    <li>Une machine virtuelle Debian 11 (Hébergement des outils)</li>
+                                                    <li>Une machine virtuelle Windows 10 Professionnel (Machine Cliente à recenser)</li>
+                                                    <li>OCS Inventory</li>
+                                                    <li>GLPI</li>
+                                                </ul>
+                                                <p>
+                                                   <strong>Logiciels & Services :</strong> Apache2, Maria DB Server, PHP, Plugin GLPI-OCS Inventory, Wget
+                                                </p>
+                                                <!--Titre + Liste-->
+                                                <section id="ressources" class="ressources">
+                                                    <!--<div class="container">-->
+                                                        <h5 class="h3">Ressources</h5>
+                                                        <div class="grid">
+                                                            <!--<div class="grid__item">-->
+                                                                <ul class="itembutton list-unstyled">
+                                                                    <li onclick="window.open('https://drive.google.com/file/d/12u2hUK0ftj3K3LNDq55_OJ85io-YtvFz/view?usp=share_link', '_blank');" style="cursor: pointer;">
+                                                                        <h4>Fiche réalisation n°4 - OCS-GLPI</h4>
+                                                                        <p>PDF - Lien externe G. Drive</p>
+                                                                    </li>
+                                                                </ul>
+                                                            <!--</div>-->
+                                                        </div>
+                                                    <!--</div>-->
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!--Fin de Modal-->
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </main>
+
+        </div>
+      </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Pharell Dantin</p>
+                </div>
+                <div class="grid__item">
+                <ul class="socials list-unstyled">
+                    <li>
+                        <a href="https://www.linkedin.com/in/pdtn/" target="_blank">
+                            <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                                data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__item">
+              <p>Copyright © 2023 Pharell Dantin Portfolio. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+  <!-- ceci est un commentaire -->
+</body>
